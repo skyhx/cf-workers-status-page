@@ -37,3 +37,9 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+  - id: sky0427.dns-dynamic.net
+    name: The Cloudns Domain
+    url: 'http://a.sky0427.dns-dynamic.net'
+    method: GET
+    expectStatus: 200    
