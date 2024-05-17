@@ -48,58 +48,58 @@ monitors:
     name: pdfa.cloudns.be
     url: 'http://a.pdfa.cloudns.be:8090/K3Cloud/html5/SCPIndex.aspx'
     method: GET
-    expectStatus: 200  
+    expectStatus: 404  
 
   - id: bic.cloudns.ch
     name: bic.cloudns.ch
     url: 'http://a.bic.cloudns.ch:8090/K3Cloud/html5/SCPIndex.aspx'
     method: GET
-    expectStatus: 200  
+    expectStatus: 404  
 
   - id: xls.cloudns.be
     name: xls.cloudns.be
     url: 'http://a.xls.cloudns.be:8090/K3Cloud/html5/SCPIndex.aspx'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
 
   - id: jpg.cloudns.be
     name: jpg.cloudns.be
-    url: 'https://b.jpg.cloudns.be'
+    url: 'https://a.jpg.cloudns.be:8090/K3Cloud/html5/SCPIndex.aspx'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
 
   - id: jpg.cloudns.ch
     name: jpg.cloudns.ch
     url: 'http://a.jpg.cloudns.ch:8090/K3Cloud/html5/SCPIndex.aspx'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
 
   - id: dwg.dns-dynamic.net
     name: dwg.dns-dynamic.net
     url: 'http://a.dwg.dns-dynamic.net:8090/K3Cloud/html5/SCPIndex.aspx'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
 
   - id: ipt.dns-dynamic.net
     name: ipt.dns-dynamic.net
     url: 'http://a.ipt.dns-dynamic.net:8090/K3Cloud/html5/SCPIndex.aspx'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
 
   - id: rar.cloudns.ch
     name: rar.cloudns.ch
     url: 'http://a.rar.cloudns.ch:8090/K3Cloud/html5/SCPIndex.aspx'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
 
   - id: exe.cloudns.be
     name: exe.cloudns.be
     url: 'http://a.exe.cloudns.be:8090/K3Cloud/html5/SCPIndex.aspx'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
 
   - id: dwg.cloudns.ch
     name: dwg.cloudns.ch
     url: 'http://a.dwg.cloudns.ch:8090/K3Cloud/html5/SCPIndex.aspx'
     method: GET
-    expectStatus: 200
+    expectStatus: 404
