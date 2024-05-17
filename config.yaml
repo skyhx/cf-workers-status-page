@@ -39,7 +39,7 @@ monitors:
     expectStatus: 200
 
   - id: sky0427.dns-dynamic.net
-    name: The Cloudns Domain
+    name: sky0427.dns-dynamic.net
     url: 'http://a.sky0427.dns-dynamic.net'
     method: GET
-    expectStatus: 200    
+    expectStatus: 404    
