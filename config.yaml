@@ -43,3 +43,9 @@ monitors:
     url: 'http://a.sky0427.dns-dynamic.net'
     method: GET
     expectStatus: 404    
+
+  - id: pdfa.cloudns.be
+    name: pdfa.cloudns.be
+    url: 'http://a.pdfa.cloudns.be:8090/K3Cloud/html5/SCPIndex.aspx'
+    method: GET
+    expectStatus: 200  
