@@ -64,7 +64,7 @@ monitors:
 
   - id: jpg.cloudns.be
     name: jpg.cloudns.be
-    url: 'https://a.jpg.cloudns.be:8090/K3Cloud/html5/SCPIndex.aspx'
+    url: 'http://a.jpg.cloudns.be:8090/K3Cloud/html5/SCPIndex.aspx'
     method: GET
     expectStatus: 404
 
