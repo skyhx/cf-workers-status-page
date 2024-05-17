@@ -103,3 +103,39 @@ monitors:
     url: 'http://a.dwg.cloudns.ch:8090/K3Cloud/html5/SCPIndex.aspx'
     method: GET
     expectStatus: 404
+
+  - id: e.aab.cloudns.be
+    name: e.aab.cloudns.be
+    url: 'https://e.aab.cloudns.be/'
+    method: GET
+    expectStatus: 200
+
+  - id: i.xxl.cloudns.ch
+    name: i.xxl.cloudns.ch
+    url: 'https://i.xxl.cloudns.ch/'
+    method: GET
+    expectStatus: 200
+
+  - id: g.xml.cloudns.ch
+    name: g.xml.cloudns.ch
+    url: 'https://g.xml.cloudns.ch/'
+    method: GET
+    expectStatus: 200
+
+  - id: m.hoo.cloudns.be
+    name: m.hoo.cloudns.be
+    url: 'https://m.hoo.cloudns.be/'
+    method: GET
+    expectStatus: 200
+
+  - id: f.ppm.dns-dynamic.net
+    name: f.ppm.dns-dynamic.net
+    url: 'https://f.ppm.dns-dynamic.net/'
+    method: GET
+    expectStatus: 200
+
+  - id: k.ae.cloudns.be
+    name: k.ae.cloudns.be
+    url: 'https://k.ae.cloudns.be/'
+    method: GET
+    expectStatus: 200    
