@@ -81,28 +81,28 @@ monitors:
     expectStatus: 200
 
   - id: ipt.dns-dynamic.net
-    name: ipt.dns-dynamic.net
-    url: 'http://a.ipt.dns-dynamic.net:8090/K3Cloud/html5/SCPIndex.aspx'
+    name: a-p.ipt.dns-dynamic.net
+    url: 'http://p.ipt.dns-dynamic.net'
     method: GET
-    expectStatus: 404
+    expectStatus: 200
 
   - id: rar.cloudns.ch
-    name: rar.cloudns.ch
-    url: 'http://a.rar.cloudns.ch:8090/K3Cloud/html5/SCPIndex.aspx'
+    name: a-p.rar.cloudns.ch
+    url: 'http://p.rar.cloudns.ch'
     method: GET
-    expectStatus: 404
+    expectStatus: 200
 
   - id: exe.cloudns.be
-    name: exe.cloudns.be
-    url: 'http://a.exe.cloudns.be:8090/K3Cloud/html5/SCPIndex.aspx'
+    name: a-p.exe.cloudns.be
+    url: 'http://p.exe.cloudns.be'
     method: GET
-    expectStatus: 404
+    expectStatus: 200
 
   - id: dwg.cloudns.ch
-    name: dwg.cloudns.ch
-    url: 'http://a.dwg.cloudns.ch:8090/K3Cloud/html5/SCPIndex.aspx'
+    name: a-p.dwg.cloudns.ch
+    url: 'http://p.dwg.cloudns.ch'
     method: GET
-    expectStatus: 404
+    expectStatus: 200
 
   - id: e.aab.cloudns.be
     name: e.aab.cloudns.be
