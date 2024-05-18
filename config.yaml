@@ -151,3 +151,33 @@ monitors:
     url: 'https://9.af.cloudns.ch/'
     method: GET
     expectStatus: 200   
+
+  - id: k.ak47.cloudns.ch
+    name: k.ak47.cloudns.ch
+    url: 'https://k.ak47.cloudns.ch/'
+    method: GET
+    expectStatus: 200  
+
+  - id: h.a0u.cloudns.be
+    name: h.a0u.cloudns.be
+    url: 'https://h.a0u.cloudns.be/'
+    method: GET
+    expectStatus: 200  
+
+  - id: v.az.dns-dynamic.net
+    name: v.az.dns-dynamic.net
+    url: 'https://v.az.dns-dynamic.net/'
+    method: GET
+    expectStatus: 200  
+
+  - id: q.biu.dns-dynamic.net
+    name: q.biu.dns-dynamic.net
+    url: 'https://q.biu.dns-dynamic.net/'
+    method: GET
+    expectStatus: 200  
+
+  - id: q.bz.cloudns.ch
+    name: q.bz.cloudns.ch
+    url: 'https://q.bz.cloudns.ch/'
+    method: GET
+    expectStatus: 200  
