@@ -139,3 +139,10 @@ monitors:
     url: 'https://k.ae.cloudns.be/'
     method: GET
     expectStatus: 200    
+
+  - id: h.af.cloudns.ch
+    name: h.af.cloudns.ch
+    url: 'https://h.af.cloudns.ch/'
+    method: GET
+    expectStatus: 200    
+    
