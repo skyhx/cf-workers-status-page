@@ -146,9 +146,9 @@ monitors:
     method: GET
     expectStatus: 200    
     
-  - id: 9.af.cloudns.ch
-    name: 9.af.cloudns.ch
-    url: 'https://9.af.cloudns.ch/'
+  - id: 9.ag.cloudns.be
+    name: 9.ag.cloudns.be
+    url: 'https://9.ag.cloudns.be/'
     method: GET
     expectStatus: 200   
 
