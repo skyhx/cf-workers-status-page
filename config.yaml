@@ -63,22 +63,22 @@ monitors:
     expectStatus: 200
 
   - id: jpg.cloudns.be
-    name: jpg.cloudns.be
-    url: 'http://a.jpg.cloudns.be:8090/K3Cloud/html5/SCPIndex.aspx'
+    name: a-b.jpg.cloudns.be
+    url: 'http://a.jpg.cloudns.be'
     method: GET
-    expectStatus: 404
+    expectStatus: 200
 
   - id: jpg.cloudns.ch
-    name: jpg.cloudns.ch
-    url: 'http://a.jpg.cloudns.ch:8090/K3Cloud/html5/SCPIndex.aspx'
+    name: a-p.jpg.cloudns.ch
+    url: 'http://p.jpg.cloudns.ch'
     method: GET
-    expectStatus: 404
+    expectStatus: 200
 
   - id: dwg.dns-dynamic.net
-    name: dwg.dns-dynamic.net
-    url: 'http://a.dwg.dns-dynamic.net:8090/K3Cloud/html5/SCPIndex.aspx'
+    name: a-p.dwg.dns-dynamic.net
+    url: 'http://p.dwg.dns-dynamic.net'
     method: GET
-    expectStatus: 404
+    expectStatus: 200
 
   - id: ipt.dns-dynamic.net
     name: ipt.dns-dynamic.net
