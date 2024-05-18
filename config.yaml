@@ -177,7 +177,13 @@ monitors:
     expectStatus: 200  
 
   - id: q.bz.cloudns.ch
-    name: q.bz.cloudns.ch
+    name: q.bz.cloudns.ch（小号）
     url: 'https://q.bz.cloudns.ch/'
     method: GET
     expectStatus: 200  
+
+  - id: q.dm0503.cloudns.be
+    name: q.dm0503.cloudns.be(小号)
+    url: 'https://q.dm0503.cloudns.be/'
+    method: GET
+    expectStatus: 200 
