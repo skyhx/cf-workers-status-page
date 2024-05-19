@@ -187,3 +187,9 @@ monitors:
     url: 'https://q.dm0503.cloudns.be/'
     method: GET
     expectStatus: 200 
+
+  - id: D25
+    name: v.apk.dns-dynamic.net
+    url: 'https://v.apk.dns-dynamic.net/'
+    method: GET
+    expectStatus: 200 
