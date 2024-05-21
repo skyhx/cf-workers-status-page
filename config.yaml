@@ -199,3 +199,15 @@ monitors:
     url: 'https://v.ay.cloudns.ch/'
     method: GET
     expectStatus: 200 
+
+  - id: D27
+    name: a-v.joy.dns-dynamic.net
+    url: 'https://v.joy.dns-dynamic.net/'
+    method: GET
+    expectStatus: 200 
+
+  - id: D28
+    name: a-v.less.cloudns.ch
+    url: 'https://v.less.cloudns.ch/'
+    method: GET
+    expectStatus: 200     
